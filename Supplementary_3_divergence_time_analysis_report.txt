@@ -1,0 +1,37 @@
+# Phylogenetic Divergence Time Analysis Report
+## Analysis Information
+- Analysis date: 2026-01-21
+- Tree file: AA_all_fasttree.nwk
+- Number of tips: 176
+- Calibration: Root node only, 500-600 million years
+
+## Main Results
+### Root node ages (different methods)
+-  Original tree :  1.34  million years
+-  chronos relaxed clock :  600  million years
+-  chronos strict clock :  522.83  million years
+-  Simple scaling :  550  million years
+
+### Major divergence events
+- Node  177 :  600  Ma ( 6  hundred million years)
+- Node  178 :  584.53  Ma ( 5.845  hundred million years)
+- Node  200 :  564.71  Ma ( 5.647  hundred million years)
+- Node  218 :  538.79  Ma ( 5.388  hundred million years)
+- Node  179 :  531.88  Ma ( 5.319  hundred million years)
+- Node  201 :  517.99  Ma ( 5.18  hundred million years)
+- Node  219 :  507.88  Ma ( 5.079  hundred million years)
+- Node  184 :  474.87  Ma ( 4.749  hundred million years)
+- Node  295 :  450.69  Ma ( 4.507  hundred million years)
+- Node  220 :  449.23  Ma ( 4.492  hundred million years)
+
+## Output Files
+- timetree_relaxed_chronos.nwk: chronos relaxed clock time tree
+- timetree_strict_chronos.nwk: chronos strict clock time tree
+- timetree_scaled.nwk: simple scaling time tree
+- node_ages.csv: divergence times for all nodes
+- branch_times.csv: start and end times for all branches
+- root_ages_comparison.csv: comparison of different methods
+- 01_original_tree.pdf: original tree visualization
+- 02_time_trees_comparison.pdf: comparison of different methods
+- 03_detailed_time_tree.pdf: detailed time tree
+
